@@ -53,6 +53,7 @@ const opcion = parseInt(prompt("Ingrese el número de la opción deseada:"));
       } catch (error) {
         console.error("no se reliso la reservacion");
       }
+      break;
       case 4:
         try {
           const idToRemove = parseInt(prompt("Ingrese el ID de la reservación a eliminar:") || '0');
@@ -79,4 +80,6 @@ default:
   }}
 Menu();
   
+ 
+
  
